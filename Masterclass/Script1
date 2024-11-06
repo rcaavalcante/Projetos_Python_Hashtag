@@ -1,0 +1,60 @@
+1 Método:
+
+3 Pilares:
+    Negócios - Resolução de problemas com base nos dados
+    Tecnologia - Ferramentas que surgem conforme há necessidade
+    Matemática -
+
+7 passos de um projeto de ciência de dados:
+    Entendimento do negógio/desafio que vc quer resolver,
+    Entendimento da empresa/área/dados,
+    Extração/Preparação/Limpeza dos dados,
+    Análise exploratória,
+    Modelagem + Algoritmos,
+    Validação e interpretação dos resultados,
+    Deploy/Produção
+
+Bibliotecas:
+    Pandas - manipular dados
+    GeoPandas - manipular dados geográficos
+    Matplotlib e Seaborn - gráficos estaticos
+    Folium  - mapas interativos
+    Scikit_Learn - modelos de inteligência artificial
+    Streamlit - páginas web interativas
+
+3 Tipos de problemas de Ciência de dados:
+    Classificação - Classificação de ações dentro de um escopo,
+    Regressão - Prever um alguma coisa,
+    Clusterização - Agrupamento, segmentação
+
+
+                                                                                    1 parte dos dados pra treino e outra pra teste
+
+Etapas:
+
+1 Importar Bibliotecas e Bases de Dados
+2 Consolidar Base de Dados
+3 Se tivermos muitas colunas, já vamos identificar quais colunas podemos excluir
+    Para isso, vamos criar um arquivo csv com os 1000 primeiros registros e fazer uma análise quantitativa
+Tipos de colunas que vamos excluir:
+    1. IDs, Links e informações não relevantes para o modelo
+    2. Colunas repetidas ou parecidas com outra (data vs ano/mes)
+    3. Colunas preenchidas com texto livre -> Não rodaremos nenhuma análise de palavras ou algo do tipo
+    4. Colunas em que todos, ou quase todos os valores são iguais
+
+Ps: para avaliar o conteudo das colunas podemos usar vários métodos, dentre eles:
+    .value_counts() - imprime uma tabela com a quantidade dos diferentes valores que uma coluna possui
+    coluna1 == coluna2 - compara se uma coluna é igual a outra dando os valores compatíveis e não compatíveis
+    .isnull().sum - soma os valores nulos
+
+
+4 Tratar Valores Faltando
+5 Verificar Tipos de Dados em cada coluna
+6 Análise Exploratória e Tratar Outliers
+7 Encoding
+8 Modelo de Previsão
+9 Análise do Melhor Modelo
+10 Ajustes e Melhorias no Melhor Modelo
+
+
+
